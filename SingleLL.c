@@ -117,7 +117,7 @@ void main()
 	
 	printf("\nEnter a value to be searched: ");
 	scanf("%d",&key);
-	search(&head,key);
+	search(&head,key); 
 }
 
 
