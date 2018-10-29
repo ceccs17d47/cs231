@@ -56,7 +56,7 @@ int main()
     {
 	scanf("%d",&b[i]);
     }
-    quickSort(b, 0, n-1); 
+    quickSort(b, 0, n-1);
     printf("\nSorted array: \n"); 
     printArray(b, n); 
     return 0; 
