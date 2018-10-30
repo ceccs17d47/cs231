@@ -32,6 +32,27 @@ void append(struct Node** head_ref, int new_data)
 	last->next=new_node;
 	return;
 }
+void insertAfter(struct Node* prev_node, int new_data) 
+{ 
+   
+    if (prev_node == NULL) 
+    { 
+      printf("the given previous node cannot be NULL"); 
+      return; 
+    } 
+  
+  
+    struct Node* new_node =(struct Node*) malloc(sizeof(struct Node)); 
+  
+   
+    new_node->data  = new_data; 
+  
+    
+    new_node->next = prev_node->next; 
+  
+    
+    prev_node->next = new_node; 
+} 
 
 void deletenode(struct Node **head_ref, int pos)
 {
@@ -94,6 +115,9 @@ void main()
 	printf("Enter a value to be pushed: ");
 	scanf("%d",&value);
 	push(&head,value);
+	printf("Enter a value to be pushed: ");
+	scanf("%d",&value);
+	insertAfter(head->next,&value);
 
 	printf("Enter a value to be pushed: ");
 	scanf("%d",&value);
