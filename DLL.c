@@ -274,6 +274,6 @@ void search()
              temp2 = temp2->next;
             count++;
     }
-    printf("\n Error : %d not found in list", data);
+    printf("\n Error : %d not found in list ", data);
 }
  
