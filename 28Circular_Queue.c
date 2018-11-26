@@ -1,79 +1,73 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#define size 10
+int queue[size], front, rear;
 
-void main()
-{
-    int arr[11],f,l,i,ele,temp,choice;
-    f=0;
-    l=0;
-
-    do
-    {
-        printf("\nMENU\n1.Insertion\n2.Deletion\n3.Dispaly\n4.Exit\nEnter choice: ");
-        scanf("%d",&choice);
-        switch(choice)
-        {
-            case 1: if(l==0)
-                    {
-                        printf("Enter element: ");
-                        scanf("%d",&ele);
-                        f=1;
-                        l=1;
-                        arr[l]=ele;
-
-                    }
-                    else if(f==(l+1))
-                    {
-                        printf("\nQueue is FULL\n");
-                    }
-                    else
-                    {
-                        temp=l;
-                        temp=((temp%10)+1);
-                        if(temp!=f)
-                        {
-                            l=temp;
-                            printf("Enter element: ");
-                            scanf("%d",&ele);
-                            arr[l]=ele;
-                        }
-                        else
-                        {
-                            printf("\nQueue is FULL\n");
-                        }
-                    }
-                    break;
-            case 2: if(f==0)
-                    {
-                        printf("\nQueue is EMPTY\n");
-                    }
-                    else
-                    {
-                        if(f==l)
-                        {
-                            f=0;
-                            l=0;
-                        }
-                        else
-                        {
-                            f=((f%10)+1);
-
-                        }
-                    }
-                    break;
-            case 3: i=f;
-                    while(i!=(l+1))
-                    {
-                        if(l==10 && i==10)
-                        {
-                            printf(" %d <-",arr[i]);
-                            break;
-                        }
-                        printf(" %d <-",arr[i]);
-                        i=((i%10)+1);
-                    }
-                    break;
-        }
-        
-    }while(choice==1 || choice==2 || choice==3);
+void enqueue() {
+	int data;
+  if ((front == rear+1) || (front==0 && rear == size-1)) {
+    printf("Queue overflow\n");
+  } else {
+		printf("Enter data to be entered : ");
+		scanf("%d", &data);
+    if (rear == -1) {
+      rear = front = 0;
+    } else {
+      rear = (rear+1)%size;
+    }
+    queue[rear] = data;
+  }
+}
+void dequeue() {
+  if (front == -1) {
+    printf("Queue underflow\n");
+  } else {
+    if (front == rear) {
+      front = rear = -1;
+    } else {
+      front = (front+1)%size;
+    }
+  }
+}
+void printQueue() {
+  int i=0;
+  if (front<=rear) {
+    for (i=0; i<front; i++) {
+      printf("-:");
+    }
+    for (;i<=rear; i++) {
+      printf("%d:", queue[i]);
+    }
+    for (;i<size; i++) {
+      printf("-:");
+    }
+  } else {
+    for (i=0; i<=rear; i++) {
+      printf("%d:", queue[i]);
+    }
+    for (;i<front; i++) {
+      printf("-:");
+    }
+    for (;i<size;i++) {
+      printf("%d:", queue[i]);
+    }
+  }
+}
+int main() {
+	char choice;
+	front = rear = -1;
+	do {
+		printf("\n\tQueue using array\n1.Enqueue\n2.Dequeue\n3.Display\n4.Exit\nEnter your choice : ");
+		scanf(" %c", &choice);
+		switch(choice) {
+			case '1':
+				enqueue();
+				break;
+			case '2':
+				dequeue();
+				break;
+			case '3':
+				printQueue();
+				break;
+		}
+	} while(choice != '4');
 }
