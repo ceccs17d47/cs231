@@ -36,7 +36,7 @@ CS231 lab projects
  - [X] 31: Implementation of circular queue using LL  
   #### Binary tree operations: creation, insertion, deletion, traversal (32-33)  
  - [X] 32: Using LL  
- - [ ] 33: Using array  
+ - [X] 33: Using array  
   #### Hashing operations: creation, insertion, deletion (34-39)  
  - [ ] 34: Using mapping function 1  
  - [ ] 35: Using mapping function 2  
