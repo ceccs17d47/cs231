@@ -1,0 +1,51 @@
+Script started on 2018-11-28 23:20:34+05:30
+]0;shylesh@shylesh: ~/Desktop/cs231-master[01;32mshylesh@shylesh[00m:[01;34m~/Desktop/cs231-master[00m$ ./29
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 1
+Enter element: 9
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 2 1
+Enter element: 7
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 1
+Enter element: 3
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 3
+9 <-7 <-3 <- NULL
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 2
+
+DELETED 9 
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 3
+7 <-3 <- NULL
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 8
+]0;shylesh@shylesh: ~/Desktop/cs231-master[01;32mshylesh@shylesh[00m:[01;34m~/Desktop/cs231-master[00m$ exit
+
+Script done on 2018-11-28 23:21:01+05:30

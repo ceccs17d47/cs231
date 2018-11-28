@@ -1,0 +1,6 @@
+
+Enter the expression :: 456*+
+
+The result of expression 456*+  =  34
+
+
