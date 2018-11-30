@@ -1,3 +1,8 @@
+/* Name:Shylesh S
+   Roll No: 47
+   Program No. 28
+   Program: Circular Queue Using Array */
+
 #include <stdio.h>
 #define size 10
 int queue[size], front, rear;
