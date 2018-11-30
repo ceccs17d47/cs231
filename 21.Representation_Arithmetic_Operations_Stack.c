@@ -1,3 +1,8 @@
+/* Name:Shylesh S
+   Roll No: 47
+   Program No. 21
+   Program: Representation Of Arithmetic Operations Using Stack*/
+
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
