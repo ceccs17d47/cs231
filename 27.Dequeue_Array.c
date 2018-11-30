@@ -1,3 +1,8 @@
+/* Name:Shylesh S
+   Roll No: 47
+   Program No. 27
+   Program: Dequeue Using Array */
+
 #include <stdio.h>
 
 int queue[100], n=100, front=-1, rear=-1;
