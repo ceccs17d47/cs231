@@ -1,3 +1,8 @@
+/* Name:Shylesh S
+   Roll No: 47
+   Program No. 17
+   Program: Polynomial Multiplication */
+
 #include<stdio.h>
 #include<stdlib.h>
 
