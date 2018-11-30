@@ -1,3 +1,8 @@
+/* Name:Shylesh S
+   Roll No: 47
+   Program No. 12
+   Program: Doubly Linked List */
+
 #include <stdio.h>
 #include <stdlib.h>
  
