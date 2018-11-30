@@ -1,3 +1,8 @@
+/* Name:Shylesh S
+   Roll No: 47
+   Program No. 23
+   Program: Postfix Expression Evaluation */
+
 #include<stdio.h>
 int stack[20];
 int top = -1;
