@@ -1,3 +1,8 @@
+/* Name:Shylesh S
+   Roll No: 47
+   Program No. 16
+   Program: Polynomial Addition */
+
 #include<stdio.h>
 #include<malloc.h>
 struct link{
