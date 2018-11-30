@@ -1,3 +1,8 @@
+/* Name:Shylesh S
+   Roll No: 47
+   Program No. 7
+   Program: Quick Sort Without Recursion */
+
 #include<stdio.h>
 
 int quick(int a[],int l,int h){
