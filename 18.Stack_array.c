@@ -1,3 +1,8 @@
+/* Name:Shylesh S
+   Roll No: 47
+   Program No. 18
+   Program: Stack Using Array */
+
 #include<stdio.h>
 
 int stack[100],choice,n,top,x,i;
