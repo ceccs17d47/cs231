@@ -45,7 +45,7 @@ CS231 lab projects
  - [ ] 38: Using overflow resolution scheme 1  
  - [ ] 39: Using overflow resolution scheme 2  
  - [ ] 40: BST operations using array  
- - [ ] 41: BST operations using LL  
+ - [X] 41: BST operations using LL  
  - [ ] 42: Representation and indegree, outdegree calculation of graph using adjacency list  
  - [ ] 43: Representation and indegree, outdegree calculation of graph using adjacency matrix  
   #### Additional (Optional)  
