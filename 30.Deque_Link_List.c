@@ -1,3 +1,8 @@
+/* Name:Shylesh S
+   Roll No: 47
+   Program No. 30
+   Program: Dequeue Using Linked List */
+
 #include <stdio.h>
 #include <stdlib.h>
 
