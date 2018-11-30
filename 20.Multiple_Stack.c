@@ -1,3 +1,8 @@
+/* Name:Shylesh S
+   Roll No: 47
+   Program No. 20
+   Program: Multiple Stack */
+
 #include<stdio.h>
 #include<stdlib.h>
 
