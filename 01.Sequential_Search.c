@@ -9,7 +9,7 @@ int main()
 {
   int array[100], search, c, n;
  
-  printf("Enter number of elements in array\n");
+  printf("Enter number of elements in array\n"); // read array size
   scanf("%d", &n);
  
   printf("Enter %d integer(s)\n", n);
